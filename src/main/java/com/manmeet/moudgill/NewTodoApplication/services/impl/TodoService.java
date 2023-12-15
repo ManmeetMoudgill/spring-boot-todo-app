@@ -17,7 +17,7 @@ public class TodoService implements TodoApi {
     private final JwtHelper jwtHelper;
 
     @Autowired
-    private TodoService(TodoFacade todoFacade, JwtHelper jwtHelper) {
+    public TodoService(TodoFacade todoFacade, JwtHelper jwtHelper) {
         this.todoFacade = todoFacade;
         this.jwtHelper = jwtHelper;
     }
