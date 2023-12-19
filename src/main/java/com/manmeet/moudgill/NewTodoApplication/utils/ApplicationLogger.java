@@ -1,4 +1,4 @@
-package com.manmeet.moudgill.NewTodoApplication.singleton;
+package com.manmeet.moudgill.NewTodoApplication.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

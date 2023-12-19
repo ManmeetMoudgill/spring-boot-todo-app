@@ -1,4 +1,4 @@
-package com.manmeet.moudgill.NewTodoApplication.exceptionsHandler;
+package com.manmeet.moudgill.NewTodoApplication.utils;
 
 import com.manmeet.moudgill.NewTodoApplication.config.ApiResp.ApiResponse;
 import com.manmeet.moudgill.NewTodoApplication.config.ApiResp.Error;

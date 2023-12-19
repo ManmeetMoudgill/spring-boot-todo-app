@@ -1,20 +1,13 @@
 package com.manmeet.moudgill.NewTodoApplication.aspect;
 
 
-import com.manmeet.moudgill.NewTodoApplication.config.ApiResp.ApiResponse;
-import com.manmeet.moudgill.NewTodoApplication.dtos.AuthResponseDto;
 import com.manmeet.moudgill.NewTodoApplication.dtos.LoginDto;
-import com.manmeet.moudgill.NewTodoApplication.dtos.UserDto;
-import com.manmeet.moudgill.NewTodoApplication.singleton.ApplicationLogger;
+import com.manmeet.moudgill.NewTodoApplication.utils.ApplicationLogger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
-
-import java.util.HashMap;
-import java.util.Objects;
 
 @Aspect
 @Component
